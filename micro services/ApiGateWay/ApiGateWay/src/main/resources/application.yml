@@ -10,7 +10,7 @@ spring:
         - id: USERSERVICE
           uri: lb://USERSERVICE
           predicates:
-            - Path=/user/**
+            - Path=/**
 
         - id: HOTELSERVICE
           uri: lb://HOTELSERVICE
